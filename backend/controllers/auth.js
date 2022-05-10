@@ -10,6 +10,11 @@ const User = require('../models').user;
 // END OF MODELS
 
 
+exports.list = async(req, res) => {
+    let users = await User.findAll();
+    res.status(200).send(users);
+};
+
 exports.register = async(req, res) => {
 
     try {
