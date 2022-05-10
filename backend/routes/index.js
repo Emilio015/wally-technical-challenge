@@ -6,7 +6,7 @@ const authController = require('../controllers/auth');
 module.exports = (app) => {
 
     // AUTH MODULE
-    app.get('/api/dashboard/users', authController.list);
+    //app.get('/api/dashboard/users', authController.list);
     app.post('/api/dashboard/login', authController.login);
     app.post('/api/dashboard/register', authController.register);
     app.get('/api/dashboard/user', authController.user);
