@@ -33,3 +33,4 @@ $ node backend/app
 ```
 
 Se realizó un despliegue en DigitalOcean usando también la terminal de linux como AWS EC2.
+Se tuvo complicaciones con AWS EC2 por temas de mi cuenta que no aceptaba mi tarjeta, pero también tengo experiencia en despligues con AWS EC2.
