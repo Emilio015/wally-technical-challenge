@@ -54,7 +54,7 @@ export default {
     },
 
     axios: {
-        baseURL: 'http://localhost:8000/api'
+        baseURL: 'http://147.182.136.93/api'
     },
 
     bootstrapVue: {
